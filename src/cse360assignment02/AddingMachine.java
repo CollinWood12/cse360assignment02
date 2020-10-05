@@ -1,5 +1,5 @@
 package cse360assignment02;
-
+//HEY GITHUB
 public class AddingMachine 
 {
     private int total;
