@@ -1,14 +1,8 @@
-## Getting Started
+## CSE 360 GitHub Assignment 02
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository includes the AddingMachine.java class file which includes all of the needed documentation and implementation.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+## Commits
+When looking at the commit history of AddingMachine.java, the last two commits are requried for the assignment. The most recent commit pushed to the repository
+is the final version of the file, while the second to last version is the file without implementation of the given methods and solely used for 
+documentation purposes. 
