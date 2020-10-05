@@ -13,7 +13,18 @@ package cse360assignment02;
 public class AddingMachine 
 {
     //Main Driver
+    public static void main(String[] args)
+    {
+        AddingMachine myCalculator = new AddingMachine();
     
+        myCalculator.add (4); 
+        myCalculator.subtract (2);
+        myCalculator.add(5);
+ 
+        System.out.println("Result: " + myCalculator.getTotal());
+        System.out.println(myCalculator);
+    }
+
 
     private int total;
     private String totalString;
@@ -21,37 +32,39 @@ public class AddingMachine
     //Constructor
     public AddingMachine () 
     {
-      total = 0;  // not needed - included for clarity
-     
+        total = 0;  // not needed - included for clarity
+        totalString = total + " ";
     }
     
     //Accessor Method
     public int getTotal () 
     {
-      return 0;
+      return total;
     }
     
-    //Adds the paramter to the current total
+    //Adds the parameter to the current total
     public void add (int value) 
     {
-        
+        total = total + value;
+        totalString = totalString + "+ " + value + " ";
     }
     
     //Subtracts the parameter from the running total. 
     public void subtract (int value) 
     {
-        
+        total = total - value; 
+        totalString = totalString + "- " + value + " ";
     }
     
     //Returs our current equation
     public String toString () 
     {
-      return "";
+        return totalString;
     }
   
     //Resets our String to the default String
     public void clear() 
     {
-       
+        totalString = "0 ";
     }
   }
